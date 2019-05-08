@@ -15,11 +15,12 @@ def getV(port):
 if __name__ == '__main__':
     while True:
         temp = getV(3)
-        LSR = getR(getV(3))
+        light = getV(2)
+ #       LSR = getR(getV(3))
         #print("Port2:%.2f:"%getV(2))
         #print("Port3:%.2f:"%getV(3))
-
-        print("P3 %.2fVolt"%temp, end = ",")
-        print("P2%.2fVolt"%getV(2))
+        print("P2 %.2fVolt"%light, end = ",")
+        print("P3 %.2fVolt"%temp)
+  #      print("P2%.2fVolt"%getV(2))
         #print("%.2fOhm"%LSR)
         time.sleep(1)
