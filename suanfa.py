@@ -203,4 +203,4 @@ if __name__ == '__main__':
         numerator += delta_t * t * ((B[i] + B[i - 1]) / 2)
 
     center = numerator / denominator
-    print("浇水量 : {:.1} [degree Celsius]".format(center))
+    print("浇水量 : {:.2f} [degree Celsius]".format(center))
